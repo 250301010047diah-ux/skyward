@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_9_elite-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "flying_eye_laser_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 44,
+        "y": 37,
+        "w": 309,
+        "h": 278
+      },
+      "anchor": {
+        "x": 199,
+        "y": 314
+      }
+    },
+    {
+      "name": "flying_eye_laser_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 436,
+        "y": 38,
+        "w": 295,
+        "h": 276
+      },
+      "anchor": {
+        "x": 584,
+        "y": 313
+      }
+    },
+    {
+      "name": "flying_eye_laser_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 803,
+        "y": 37,
+        "w": 374,
+        "h": 278
+      },
+      "anchor": {
+        "x": 990,
+        "y": 314
+      }
+    },
+    {
+      "name": "flying_eye_laser_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1177,
+        "y": 40,
+        "w": 341,
+        "h": 275
+      },
+      "anchor": {
+        "x": 1348,
+        "y": 314
+      }
+    },
+    {
+      "name": "flying_eye_laser_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1607,
+        "y": 37,
+        "w": 305,
+        "h": 278
+      },
+      "anchor": {
+        "x": 1760,
+        "y": 314
+      }
+    },
+    {
+      "name": "void_squid_pull_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 45,
+        "y": 376,
+        "w": 293,
+        "h": 334
+      },
+      "anchor": {
+        "x": 192,
+        "y": 709
+      }
+    },
+    {
+      "name": "void_squid_pull_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 408,
+        "y": 377,
+        "w": 358,
+        "h": 330
+      },
+      "anchor": {
+        "x": 587,
+        "y": 706
+      }
+    },
+    {
+      "name": "void_squid_pull_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 794,
+        "y": 377,
+        "w": 424,
+        "h": 329
+      },
+      "anchor": {
+        "x": 1006,
+        "y": 705
+      }
+    },
+    {
+      "name": "void_squid_pull_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1241,
+        "y": 380,
+        "w": 345,
+        "h": 326
+      },
+      "anchor": {
+        "x": 1414,
+        "y": 705
+      }
+    },
+    {
+      "name": "void_squid_pull_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1615,
+        "y": 377,
+        "w": 299,
+        "h": 333
+      },
+      "anchor": {
+        "x": 1765,
+        "y": 709
+      }
+    },
+    {
+      "name": "devourer_attack_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 23,
+        "y": 762,
+        "w": 360,
+        "h": 392
+      },
+      "anchor": {
+        "x": 203,
+        "y": 1153
+      }
+    },
+    {
+      "name": "devourer_attack_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 409,
+        "y": 760,
+        "w": 365,
+        "h": 394
+      },
+      "anchor": {
+        "x": 592,
+        "y": 1153
+      }
+    },
+    {
+      "name": "devourer_attack_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 799,
+        "y": 763,
+        "w": 427,
+        "h": 391
+      },
+      "anchor": {
+        "x": 1013,
+        "y": 1153
+      }
+    },
+    {
+      "name": "devourer_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1232,
+        "y": 762,
+        "w": 368,
+        "h": 392
+      },
+      "anchor": {
+        "x": 1416,
+        "y": 1153
+      }
+    },
+    {
+      "name": "devourer_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1606,
+        "y": 763,
+        "w": 336,
+        "h": 392
+      },
+      "anchor": {
+        "x": 1774,
+        "y": 1154
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "flying_eye_laser",
+      "frames": [
+        {
+          "name": "flying_eye_laser_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 44,
+            "y": 37,
+            "w": 309,
+            "h": 278
+          },
+          "anchor": {
+            "x": 199,
+            "y": 314
+          }
+        },
+        {
+          "name": "flying_eye_laser_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 436,
+            "y": 38,
+            "w": 295,
+            "h": 276
+          },
+          "anchor": {
+            "x": 584,
+            "y": 313
+          }
+        },
+        {
+          "name": "flying_eye_laser_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 803,
+            "y": 37,
+            "w": 374,
+            "h": 278
+          },
+          "anchor": {
+            "x": 990,
+            "y": 314
+          }
+        },
+        {
+          "name": "flying_eye_laser_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1177,
+            "y": 40,
+            "w": 341,
+            "h": 275
+          },
+          "anchor": {
+            "x": 1348,
+            "y": 314
+          }
+        },
+        {
+          "name": "flying_eye_laser_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1607,
+            "y": 37,
+            "w": 305,
+            "h": 278
+          },
+          "anchor": {
+            "x": 1760,
+            "y": 314
+          }
+        }
+      ]
+    },
+    {
+      "name": "void_squid_pull",
+      "frames": [
+        {
+          "name": "void_squid_pull_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 45,
+            "y": 376,
+            "w": 293,
+            "h": 334
+          },
+          "anchor": {
+            "x": 192,
+            "y": 709
+          }
+        },
+        {
+          "name": "void_squid_pull_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 408,
+            "y": 377,
+            "w": 358,
+            "h": 330
+          },
+          "anchor": {
+            "x": 587,
+            "y": 706
+          }
+        },
+        {
+          "name": "void_squid_pull_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 794,
+            "y": 377,
+            "w": 424,
+            "h": 329
+          },
+          "anchor": {
+            "x": 1006,
+            "y": 705
+          }
+        },
+        {
+          "name": "void_squid_pull_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1241,
+            "y": 380,
+            "w": 345,
+            "h": 326
+          },
+          "anchor": {
+            "x": 1414,
+            "y": 705
+          }
+        },
+        {
+          "name": "void_squid_pull_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1615,
+            "y": 377,
+            "w": 299,
+            "h": 333
+          },
+          "anchor": {
+            "x": 1765,
+            "y": 709
+          }
+        }
+      ]
+    },
+    {
+      "name": "devourer_attack",
+      "frames": [
+        {
+          "name": "devourer_attack_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 23,
+            "y": 762,
+            "w": 360,
+            "h": 392
+          },
+          "anchor": {
+            "x": 203,
+            "y": 1153
+          }
+        },
+        {
+          "name": "devourer_attack_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 409,
+            "y": 760,
+            "w": 365,
+            "h": 394
+          },
+          "anchor": {
+            "x": 592,
+            "y": 1153
+          }
+        },
+        {
+          "name": "devourer_attack_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 799,
+            "y": 763,
+            "w": 427,
+            "h": 391
+          },
+          "anchor": {
+            "x": 1013,
+            "y": 1153
+          }
+        },
+        {
+          "name": "devourer_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1232,
+            "y": 762,
+            "w": 368,
+            "h": 392
+          },
+          "anchor": {
+            "x": 1416,
+            "y": 1153
+          }
+        },
+        {
+          "name": "devourer_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1606,
+            "y": 763,
+            "w": 336,
+            "h": 392
+          },
+          "anchor": {
+            "x": 1774,
+            "y": 1154
+          }
+        }
+      ]
+    }
+  ]
+}

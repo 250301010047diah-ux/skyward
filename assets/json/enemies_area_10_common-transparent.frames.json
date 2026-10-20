@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_10_common-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "archer_clone_shoot_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 23,
+        "y": 18,
+        "w": 348,
+        "h": 317
+      },
+      "anchor": {
+        "x": 197,
+        "y": 334
+      }
+    },
+    {
+      "name": "archer_clone_shoot_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 407,
+        "y": 18,
+        "w": 353,
+        "h": 317
+      },
+      "anchor": {
+        "x": 584,
+        "y": 334
+      }
+    },
+    {
+      "name": "archer_clone_shoot_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 791,
+        "y": 18,
+        "w": 386,
+        "h": 317
+      },
+      "anchor": {
+        "x": 984,
+        "y": 334
+      }
+    },
+    {
+      "name": "archer_clone_shoot_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1177,
+        "y": 18,
+        "w": 394,
+        "h": 317
+      },
+      "anchor": {
+        "x": 1374,
+        "y": 334
+      }
+    },
+    {
+      "name": "archer_clone_shoot_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1594,
+        "y": 19,
+        "w": 329,
+        "h": 316
+      },
+      "anchor": {
+        "x": 1759,
+        "y": 334
+      }
+    },
+    {
+      "name": "sky_sentinel_descend_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 15,
+        "y": 369,
+        "w": 365,
+        "h": 368
+      },
+      "anchor": {
+        "x": 198,
+        "y": 736
+      }
+    },
+    {
+      "name": "sky_sentinel_descend_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 413,
+        "y": 409,
+        "w": 359,
+        "h": 342
+      },
+      "anchor": {
+        "x": 593,
+        "y": 750
+      }
+    },
+    {
+      "name": "sky_sentinel_descend_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 791,
+        "y": 511,
+        "w": 400,
+        "h": 248
+      },
+      "anchor": {
+        "x": 991,
+        "y": 758
+      }
+    },
+    {
+      "name": "sky_sentinel_descend_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1208,
+        "y": 385,
+        "w": 360,
+        "h": 374
+      },
+      "anchor": {
+        "x": 1388,
+        "y": 758
+      }
+    },
+    {
+      "name": "sky_sentinel_descend_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1599,
+        "y": 370,
+        "w": 355,
+        "h": 381
+      },
+      "anchor": {
+        "x": 1777,
+        "y": 750
+      }
+    },
+    {
+      "name": "shadow_orb_chain_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 74,
+        "y": 856,
+        "w": 236,
+        "h": 245
+      },
+      "anchor": {
+        "x": 192,
+        "y": 1100
+      }
+    },
+    {
+      "name": "shadow_orb_chain_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 401,
+        "y": 810,
+        "w": 303,
+        "h": 325
+      },
+      "anchor": {
+        "x": 553,
+        "y": 1134
+      }
+    },
+    {
+      "name": "shadow_orb_chain_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 767,
+        "y": 791,
+        "w": 417,
+        "h": 384
+      },
+      "anchor": {
+        "x": 976,
+        "y": 1174
+      }
+    },
+    {
+      "name": "shadow_orb_chain_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1238,
+        "y": 814,
+        "w": 313,
+        "h": 329
+      },
+      "anchor": {
+        "x": 1395,
+        "y": 1142
+      }
+    },
+    {
+      "name": "shadow_orb_chain_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1648,
+        "y": 853,
+        "w": 239,
+        "h": 248
+      },
+      "anchor": {
+        "x": 1768,
+        "y": 1100
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "archer_clone_shoot",
+      "frames": [
+        {
+          "name": "archer_clone_shoot_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 23,
+            "y": 18,
+            "w": 348,
+            "h": 317
+          },
+          "anchor": {
+            "x": 197,
+            "y": 334
+          }
+        },
+        {
+          "name": "archer_clone_shoot_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 407,
+            "y": 18,
+            "w": 353,
+            "h": 317
+          },
+          "anchor": {
+            "x": 584,
+            "y": 334
+          }
+        },
+        {
+          "name": "archer_clone_shoot_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 791,
+            "y": 18,
+            "w": 386,
+            "h": 317
+          },
+          "anchor": {
+            "x": 984,
+            "y": 334
+          }
+        },
+        {
+          "name": "archer_clone_shoot_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1177,
+            "y": 18,
+            "w": 394,
+            "h": 317
+          },
+          "anchor": {
+            "x": 1374,
+            "y": 334
+          }
+        },
+        {
+          "name": "archer_clone_shoot_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1594,
+            "y": 19,
+            "w": 329,
+            "h": 316
+          },
+          "anchor": {
+            "x": 1759,
+            "y": 334
+          }
+        }
+      ]
+    },
+    {
+      "name": "sky_sentinel_descend",
+      "frames": [
+        {
+          "name": "sky_sentinel_descend_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 15,
+            "y": 369,
+            "w": 365,
+            "h": 368
+          },
+          "anchor": {
+            "x": 198,
+            "y": 736
+          }
+        },
+        {
+          "name": "sky_sentinel_descend_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 413,
+            "y": 409,
+            "w": 359,
+            "h": 342
+          },
+          "anchor": {
+            "x": 593,
+            "y": 750
+          }
+        },
+        {
+          "name": "sky_sentinel_descend_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 791,
+            "y": 511,
+            "w": 400,
+            "h": 248
+          },
+          "anchor": {
+            "x": 991,
+            "y": 758
+          }
+        },
+        {
+          "name": "sky_sentinel_descend_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1208,
+            "y": 385,
+            "w": 360,
+            "h": 374
+          },
+          "anchor": {
+            "x": 1388,
+            "y": 758
+          }
+        },
+        {
+          "name": "sky_sentinel_descend_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1599,
+            "y": 370,
+            "w": 355,
+            "h": 381
+          },
+          "anchor": {
+            "x": 1777,
+            "y": 750
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadow_orb_chain",
+      "frames": [
+        {
+          "name": "shadow_orb_chain_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 74,
+            "y": 856,
+            "w": 236,
+            "h": 245
+          },
+          "anchor": {
+            "x": 192,
+            "y": 1100
+          }
+        },
+        {
+          "name": "shadow_orb_chain_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 401,
+            "y": 810,
+            "w": 303,
+            "h": 325
+          },
+          "anchor": {
+            "x": 553,
+            "y": 1134
+          }
+        },
+        {
+          "name": "shadow_orb_chain_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 767,
+            "y": 791,
+            "w": 417,
+            "h": 384
+          },
+          "anchor": {
+            "x": 976,
+            "y": 1174
+          }
+        },
+        {
+          "name": "shadow_orb_chain_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1238,
+            "y": 814,
+            "w": 313,
+            "h": 329
+          },
+          "anchor": {
+            "x": 1395,
+            "y": 1142
+          }
+        },
+        {
+          "name": "shadow_orb_chain_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1648,
+            "y": 853,
+            "w": 239,
+            "h": 248
+          },
+          "anchor": {
+            "x": 1768,
+            "y": 1100
+          }
+        }
+      ]
+    }
+  ]
+}

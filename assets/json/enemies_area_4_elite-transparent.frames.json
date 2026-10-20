@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_4_elite-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "mutant_frog_leap_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 33,
+        "y": 103,
+        "w": 286,
+        "h": 227
+      },
+      "anchor": {
+        "x": 176,
+        "y": 329
+      }
+    },
+    {
+      "name": "mutant_frog_leap_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 351,
+        "y": 106,
+        "w": 446,
+        "h": 222
+      },
+      "anchor": {
+        "x": 574,
+        "y": 327
+      }
+    },
+    {
+      "name": "mutant_frog_leap_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 772,
+        "y": 33,
+        "w": 400,
+        "h": 303
+      },
+      "anchor": {
+        "x": 972,
+        "y": 335
+      }
+    },
+    {
+      "name": "mutant_frog_leap_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1216,
+        "y": 98,
+        "w": 383,
+        "h": 245
+      },
+      "anchor": {
+        "x": 1408,
+        "y": 342
+      }
+    },
+    {
+      "name": "mutant_frog_leap_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1640,
+        "y": 108,
+        "w": 286,
+        "h": 224
+      },
+      "anchor": {
+        "x": 1783,
+        "y": 331
+      }
+    },
+    {
+      "name": "carnivore_tongue_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 70,
+        "y": 382,
+        "w": 239,
+        "h": 334
+      },
+      "anchor": {
+        "x": 190,
+        "y": 715
+      }
+    },
+    {
+      "name": "carnivore_tongue_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 386,
+        "y": 382,
+        "w": 273,
+        "h": 331
+      },
+      "anchor": {
+        "x": 523,
+        "y": 712
+      }
+    },
+    {
+      "name": "carnivore_tongue_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 688,
+        "y": 382,
+        "w": 512,
+        "h": 332
+      },
+      "anchor": {
+        "x": 944,
+        "y": 713
+      }
+    },
+    {
+      "name": "carnivore_tongue_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1242,
+        "y": 382,
+        "w": 354,
+        "h": 331
+      },
+      "anchor": {
+        "x": 1419,
+        "y": 712
+      }
+    },
+    {
+      "name": "carnivore_tongue_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1695,
+        "y": 382,
+        "w": 229,
+        "h": 330
+      },
+      "anchor": {
+        "x": 1810,
+        "y": 711
+      }
+    },
+    {
+      "name": "slime_king_attack_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 23,
+        "y": 775,
+        "w": 348,
+        "h": 363
+      },
+      "anchor": {
+        "x": 197,
+        "y": 1137
+      }
+    },
+    {
+      "name": "slime_king_attack_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 409,
+        "y": 746,
+        "w": 347,
+        "h": 392
+      },
+      "anchor": {
+        "x": 583,
+        "y": 1137
+      }
+    },
+    {
+      "name": "slime_king_attack_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 765,
+        "y": 750,
+        "w": 449,
+        "h": 399
+      },
+      "anchor": {
+        "x": 990,
+        "y": 1148
+      }
+    },
+    {
+      "name": "slime_king_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1225,
+        "y": 774,
+        "w": 351,
+        "h": 364
+      },
+      "anchor": {
+        "x": 1401,
+        "y": 1137
+      }
+    },
+    {
+      "name": "slime_king_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1612,
+        "y": 810,
+        "w": 334,
+        "h": 328
+      },
+      "anchor": {
+        "x": 1779,
+        "y": 1137
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "mutant_frog_leap",
+      "frames": [
+        {
+          "name": "mutant_frog_leap_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 33,
+            "y": 103,
+            "w": 286,
+            "h": 227
+          },
+          "anchor": {
+            "x": 176,
+            "y": 329
+          }
+        },
+        {
+          "name": "mutant_frog_leap_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 351,
+            "y": 106,
+            "w": 446,
+            "h": 222
+          },
+          "anchor": {
+            "x": 574,
+            "y": 327
+          }
+        },
+        {
+          "name": "mutant_frog_leap_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 772,
+            "y": 33,
+            "w": 400,
+            "h": 303
+          },
+          "anchor": {
+            "x": 972,
+            "y": 335
+          }
+        },
+        {
+          "name": "mutant_frog_leap_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1216,
+            "y": 98,
+            "w": 383,
+            "h": 245
+          },
+          "anchor": {
+            "x": 1408,
+            "y": 342
+          }
+        },
+        {
+          "name": "mutant_frog_leap_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1640,
+            "y": 108,
+            "w": 286,
+            "h": 224
+          },
+          "anchor": {
+            "x": 1783,
+            "y": 331
+          }
+        }
+      ]
+    },
+    {
+      "name": "carnivore_tongue",
+      "frames": [
+        {
+          "name": "carnivore_tongue_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 70,
+            "y": 382,
+            "w": 239,
+            "h": 334
+          },
+          "anchor": {
+            "x": 190,
+            "y": 715
+          }
+        },
+        {
+          "name": "carnivore_tongue_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 386,
+            "y": 382,
+            "w": 273,
+            "h": 331
+          },
+          "anchor": {
+            "x": 523,
+            "y": 712
+          }
+        },
+        {
+          "name": "carnivore_tongue_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 688,
+            "y": 382,
+            "w": 512,
+            "h": 332
+          },
+          "anchor": {
+            "x": 944,
+            "y": 713
+          }
+        },
+        {
+          "name": "carnivore_tongue_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1242,
+            "y": 382,
+            "w": 354,
+            "h": 331
+          },
+          "anchor": {
+            "x": 1419,
+            "y": 712
+          }
+        },
+        {
+          "name": "carnivore_tongue_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1695,
+            "y": 382,
+            "w": 229,
+            "h": 330
+          },
+          "anchor": {
+            "x": 1810,
+            "y": 711
+          }
+        }
+      ]
+    },
+    {
+      "name": "slime_king_attack",
+      "frames": [
+        {
+          "name": "slime_king_attack_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 23,
+            "y": 775,
+            "w": 348,
+            "h": 363
+          },
+          "anchor": {
+            "x": 197,
+            "y": 1137
+          }
+        },
+        {
+          "name": "slime_king_attack_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 409,
+            "y": 746,
+            "w": 347,
+            "h": 392
+          },
+          "anchor": {
+            "x": 583,
+            "y": 1137
+          }
+        },
+        {
+          "name": "slime_king_attack_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 765,
+            "y": 750,
+            "w": 449,
+            "h": 399
+          },
+          "anchor": {
+            "x": 990,
+            "y": 1148
+          }
+        },
+        {
+          "name": "slime_king_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1225,
+            "y": 774,
+            "w": 351,
+            "h": 364
+          },
+          "anchor": {
+            "x": 1401,
+            "y": 1137
+          }
+        },
+        {
+          "name": "slime_king_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1612,
+            "y": 810,
+            "w": 334,
+            "h": 328
+          },
+          "anchor": {
+            "x": 1779,
+            "y": 1137
+          }
+        }
+      ]
+    }
+  ]
+}

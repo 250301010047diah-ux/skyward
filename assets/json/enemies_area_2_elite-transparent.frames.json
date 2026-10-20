@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_2_elite-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "stone_slime_split_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 64,
+        "y": 62,
+        "w": 289,
+        "h": 257
+      },
+      "anchor": {
+        "x": 209,
+        "y": 318
+      }
+    },
+    {
+      "name": "stone_slime_split_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 449,
+        "y": 65,
+        "w": 305,
+        "h": 253
+      },
+      "anchor": {
+        "x": 602,
+        "y": 317
+      }
+    },
+    {
+      "name": "stone_slime_split_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 821,
+        "y": 69,
+        "w": 344,
+        "h": 246
+      },
+      "anchor": {
+        "x": 993,
+        "y": 314
+      }
+    },
+    {
+      "name": "stone_slime_split_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1241,
+        "y": 64,
+        "w": 293,
+        "h": 252
+      },
+      "anchor": {
+        "x": 1388,
+        "y": 315
+      }
+    },
+    {
+      "name": "stone_slime_split_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1624,
+        "y": 62,
+        "w": 292,
+        "h": 258
+      },
+      "anchor": {
+        "x": 1770,
+        "y": 319
+      }
+    },
+    {
+      "name": "gargoyle_meteor_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 27,
+        "y": 371,
+        "w": 362,
+        "h": 345
+      },
+      "anchor": {
+        "x": 208,
+        "y": 715
+      }
+    },
+    {
+      "name": "gargoyle_meteor_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 471,
+        "y": 400,
+        "w": 263,
+        "h": 306
+      },
+      "anchor": {
+        "x": 603,
+        "y": 705
+      }
+    },
+    {
+      "name": "gargoyle_meteor_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 848,
+        "y": 361,
+        "w": 308,
+        "h": 355
+      },
+      "anchor": {
+        "x": 1002,
+        "y": 715
+      }
+    },
+    {
+      "name": "gargoyle_meteor_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1244,
+        "y": 365,
+        "w": 277,
+        "h": 343
+      },
+      "anchor": {
+        "x": 1383,
+        "y": 707
+      }
+    },
+    {
+      "name": "gargoyle_meteor_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1602,
+        "y": 358,
+        "w": 349,
+        "h": 359
+      },
+      "anchor": {
+        "x": 1777,
+        "y": 716
+      }
+    },
+    {
+      "name": "brood_spider_attack_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 18,
+        "y": 778,
+        "w": 365,
+        "h": 324
+      },
+      "anchor": {
+        "x": 201,
+        "y": 1101
+      }
+    },
+    {
+      "name": "brood_spider_attack_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 432,
+        "y": 752,
+        "w": 328,
+        "h": 349
+      },
+      "anchor": {
+        "x": 596,
+        "y": 1100
+      }
+    },
+    {
+      "name": "brood_spider_attack_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 826,
+        "y": 748,
+        "w": 336,
+        "h": 353
+      },
+      "anchor": {
+        "x": 994,
+        "y": 1100
+      }
+    },
+    {
+      "name": "brood_spider_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1209,
+        "y": 765,
+        "w": 344,
+        "h": 327
+      },
+      "anchor": {
+        "x": 1381,
+        "y": 1091
+      }
+    },
+    {
+      "name": "brood_spider_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1586,
+        "y": 780,
+        "w": 361,
+        "h": 322
+      },
+      "anchor": {
+        "x": 1767,
+        "y": 1101
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "stone_slime_split",
+      "frames": [
+        {
+          "name": "stone_slime_split_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 64,
+            "y": 62,
+            "w": 289,
+            "h": 257
+          },
+          "anchor": {
+            "x": 209,
+            "y": 318
+          }
+        },
+        {
+          "name": "stone_slime_split_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 449,
+            "y": 65,
+            "w": 305,
+            "h": 253
+          },
+          "anchor": {
+            "x": 602,
+            "y": 317
+          }
+        },
+        {
+          "name": "stone_slime_split_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 821,
+            "y": 69,
+            "w": 344,
+            "h": 246
+          },
+          "anchor": {
+            "x": 993,
+            "y": 314
+          }
+        },
+        {
+          "name": "stone_slime_split_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1241,
+            "y": 64,
+            "w": 293,
+            "h": 252
+          },
+          "anchor": {
+            "x": 1388,
+            "y": 315
+          }
+        },
+        {
+          "name": "stone_slime_split_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1624,
+            "y": 62,
+            "w": 292,
+            "h": 258
+          },
+          "anchor": {
+            "x": 1770,
+            "y": 319
+          }
+        }
+      ]
+    },
+    {
+      "name": "gargoyle_meteor",
+      "frames": [
+        {
+          "name": "gargoyle_meteor_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 27,
+            "y": 371,
+            "w": 362,
+            "h": 345
+          },
+          "anchor": {
+            "x": 208,
+            "y": 715
+          }
+        },
+        {
+          "name": "gargoyle_meteor_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 471,
+            "y": 400,
+            "w": 263,
+            "h": 306
+          },
+          "anchor": {
+            "x": 603,
+            "y": 705
+          }
+        },
+        {
+          "name": "gargoyle_meteor_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 848,
+            "y": 361,
+            "w": 308,
+            "h": 355
+          },
+          "anchor": {
+            "x": 1002,
+            "y": 715
+          }
+        },
+        {
+          "name": "gargoyle_meteor_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1244,
+            "y": 365,
+            "w": 277,
+            "h": 343
+          },
+          "anchor": {
+            "x": 1383,
+            "y": 707
+          }
+        },
+        {
+          "name": "gargoyle_meteor_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1602,
+            "y": 358,
+            "w": 349,
+            "h": 359
+          },
+          "anchor": {
+            "x": 1777,
+            "y": 716
+          }
+        }
+      ]
+    },
+    {
+      "name": "brood_spider_attack",
+      "frames": [
+        {
+          "name": "brood_spider_attack_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 18,
+            "y": 778,
+            "w": 365,
+            "h": 324
+          },
+          "anchor": {
+            "x": 201,
+            "y": 1101
+          }
+        },
+        {
+          "name": "brood_spider_attack_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 432,
+            "y": 752,
+            "w": 328,
+            "h": 349
+          },
+          "anchor": {
+            "x": 596,
+            "y": 1100
+          }
+        },
+        {
+          "name": "brood_spider_attack_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 826,
+            "y": 748,
+            "w": 336,
+            "h": 353
+          },
+          "anchor": {
+            "x": 994,
+            "y": 1100
+          }
+        },
+        {
+          "name": "brood_spider_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1209,
+            "y": 765,
+            "w": 344,
+            "h": 327
+          },
+          "anchor": {
+            "x": 1381,
+            "y": 1091
+          }
+        },
+        {
+          "name": "brood_spider_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1586,
+            "y": 780,
+            "w": 361,
+            "h": 322
+          },
+          "anchor": {
+            "x": 1767,
+            "y": 1101
+          }
+        }
+      ]
+    }
+  ]
+}

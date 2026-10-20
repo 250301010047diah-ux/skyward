@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_17_common-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "balloon_imp_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 23,
+        "y": 33,
+        "w": 364,
+        "h": 338
+      },
+      "anchor": {
+        "x": 205,
+        "y": 370
+      }
+    },
+    {
+      "name": "balloon_imp_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 446,
+        "y": 19,
+        "w": 338,
+        "h": 350
+      },
+      "anchor": {
+        "x": 615,
+        "y": 368
+      }
+    },
+    {
+      "name": "balloon_imp_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 851,
+        "y": 60,
+        "w": 301,
+        "h": 311
+      },
+      "anchor": {
+        "x": 1002,
+        "y": 370
+      }
+    },
+    {
+      "name": "balloon_imp_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1230,
+        "y": 92,
+        "w": 279,
+        "h": 279
+      },
+      "anchor": {
+        "x": 1370,
+        "y": 370
+      }
+    },
+    {
+      "name": "balloon_imp_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1584,
+        "y": 36,
+        "w": 362,
+        "h": 335
+      },
+      "anchor": {
+        "x": 1765,
+        "y": 370
+      }
+    },
+    {
+      "name": "carousel_griffin_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 23,
+        "y": 387,
+        "w": 360,
+        "h": 385
+      },
+      "anchor": {
+        "x": 203,
+        "y": 771
+      }
+    },
+    {
+      "name": "carousel_griffin_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 431,
+        "y": 397,
+        "w": 347,
+        "h": 377
+      },
+      "anchor": {
+        "x": 605,
+        "y": 773
+      }
+    },
+    {
+      "name": "carousel_griffin_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 815,
+        "y": 437,
+        "w": 341,
+        "h": 337
+      },
+      "anchor": {
+        "x": 986,
+        "y": 773
+      }
+    },
+    {
+      "name": "carousel_griffin_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1194,
+        "y": 464,
+        "w": 349,
+        "h": 319
+      },
+      "anchor": {
+        "x": 1369,
+        "y": 782
+      }
+    },
+    {
+      "name": "carousel_griffin_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1582,
+        "y": 387,
+        "w": 364,
+        "h": 385
+      },
+      "anchor": {
+        "x": 1764,
+        "y": 771
+      }
+    },
+    {
+      "name": "nightmare_jester_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 49,
+        "y": 800,
+        "w": 304,
+        "h": 330
+      },
+      "anchor": {
+        "x": 201,
+        "y": 1129
+      }
+    },
+    {
+      "name": "nightmare_jester_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 435,
+        "y": 926,
+        "w": 301,
+        "h": 212
+      },
+      "anchor": {
+        "x": 586,
+        "y": 1137
+      }
+    },
+    {
+      "name": "nightmare_jester_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 839,
+        "y": 801,
+        "w": 300,
+        "h": 334
+      },
+      "anchor": {
+        "x": 989,
+        "y": 1134
+      }
+    },
+    {
+      "name": "nightmare_jester_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1212,
+        "y": 862,
+        "w": 334,
+        "h": 273
+      },
+      "anchor": {
+        "x": 1379,
+        "y": 1134
+      }
+    },
+    {
+      "name": "nightmare_jester_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1593,
+        "y": 871,
+        "w": 352,
+        "h": 263
+      },
+      "anchor": {
+        "x": 1769,
+        "y": 1133
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "balloon_imp",
+      "frames": [
+        {
+          "name": "balloon_imp_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 23,
+            "y": 33,
+            "w": 364,
+            "h": 338
+          },
+          "anchor": {
+            "x": 205,
+            "y": 370
+          }
+        },
+        {
+          "name": "balloon_imp_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 446,
+            "y": 19,
+            "w": 338,
+            "h": 350
+          },
+          "anchor": {
+            "x": 615,
+            "y": 368
+          }
+        },
+        {
+          "name": "balloon_imp_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 851,
+            "y": 60,
+            "w": 301,
+            "h": 311
+          },
+          "anchor": {
+            "x": 1002,
+            "y": 370
+          }
+        },
+        {
+          "name": "balloon_imp_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1230,
+            "y": 92,
+            "w": 279,
+            "h": 279
+          },
+          "anchor": {
+            "x": 1370,
+            "y": 370
+          }
+        },
+        {
+          "name": "balloon_imp_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1584,
+            "y": 36,
+            "w": 362,
+            "h": 335
+          },
+          "anchor": {
+            "x": 1765,
+            "y": 370
+          }
+        }
+      ]
+    },
+    {
+      "name": "carousel_griffin",
+      "frames": [
+        {
+          "name": "carousel_griffin_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 23,
+            "y": 387,
+            "w": 360,
+            "h": 385
+          },
+          "anchor": {
+            "x": 203,
+            "y": 771
+          }
+        },
+        {
+          "name": "carousel_griffin_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 431,
+            "y": 397,
+            "w": 347,
+            "h": 377
+          },
+          "anchor": {
+            "x": 605,
+            "y": 773
+          }
+        },
+        {
+          "name": "carousel_griffin_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 815,
+            "y": 437,
+            "w": 341,
+            "h": 337
+          },
+          "anchor": {
+            "x": 986,
+            "y": 773
+          }
+        },
+        {
+          "name": "carousel_griffin_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1194,
+            "y": 464,
+            "w": 349,
+            "h": 319
+          },
+          "anchor": {
+            "x": 1369,
+            "y": 782
+          }
+        },
+        {
+          "name": "carousel_griffin_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1582,
+            "y": 387,
+            "w": 364,
+            "h": 385
+          },
+          "anchor": {
+            "x": 1764,
+            "y": 771
+          }
+        }
+      ]
+    },
+    {
+      "name": "nightmare_jester",
+      "frames": [
+        {
+          "name": "nightmare_jester_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 49,
+            "y": 800,
+            "w": 304,
+            "h": 330
+          },
+          "anchor": {
+            "x": 201,
+            "y": 1129
+          }
+        },
+        {
+          "name": "nightmare_jester_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 435,
+            "y": 926,
+            "w": 301,
+            "h": 212
+          },
+          "anchor": {
+            "x": 586,
+            "y": 1137
+          }
+        },
+        {
+          "name": "nightmare_jester_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 839,
+            "y": 801,
+            "w": 300,
+            "h": 334
+          },
+          "anchor": {
+            "x": 989,
+            "y": 1134
+          }
+        },
+        {
+          "name": "nightmare_jester_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1212,
+            "y": 862,
+            "w": 334,
+            "h": 273
+          },
+          "anchor": {
+            "x": 1379,
+            "y": 1134
+          }
+        },
+        {
+          "name": "nightmare_jester_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1593,
+            "y": 871,
+            "w": 352,
+            "h": 263
+          },
+          "anchor": {
+            "x": 1769,
+            "y": 1133
+          }
+        }
+      ]
+    }
+  ]
+}

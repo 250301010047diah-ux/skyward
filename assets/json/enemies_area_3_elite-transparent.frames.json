@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_3_elite-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "harpy_volley_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 9,
+        "y": 3,
+        "w": 362,
+        "h": 321
+      },
+      "anchor": {
+        "x": 190,
+        "y": 323
+      }
+    },
+    {
+      "name": "harpy_volley_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 406,
+        "y": 36,
+        "w": 293,
+        "h": 288
+      },
+      "anchor": {
+        "x": 553,
+        "y": 323
+      }
+    },
+    {
+      "name": "harpy_volley_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 744,
+        "y": 4,
+        "w": 424,
+        "h": 320
+      },
+      "anchor": {
+        "x": 956,
+        "y": 323
+      }
+    },
+    {
+      "name": "harpy_volley_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1186,
+        "y": 1,
+        "w": 391,
+        "h": 324
+      },
+      "anchor": {
+        "x": 1382,
+        "y": 324
+      }
+    },
+    {
+      "name": "harpy_volley_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1666,
+        "y": 20,
+        "w": 274,
+        "h": 305
+      },
+      "anchor": {
+        "x": 1803,
+        "y": 324
+      }
+    },
+    {
+      "name": "living_tornado_attack_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 60,
+        "y": 368,
+        "w": 278,
+        "h": 335
+      },
+      "anchor": {
+        "x": 199,
+        "y": 702
+      }
+    },
+    {
+      "name": "living_tornado_attack_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 452,
+        "y": 366,
+        "w": 297,
+        "h": 337
+      },
+      "anchor": {
+        "x": 601,
+        "y": 702
+      }
+    },
+    {
+      "name": "living_tornado_attack_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 822,
+        "y": 352,
+        "w": 372,
+        "h": 357
+      },
+      "anchor": {
+        "x": 1008,
+        "y": 708
+      }
+    },
+    {
+      "name": "living_tornado_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1246,
+        "y": 363,
+        "w": 314,
+        "h": 339
+      },
+      "anchor": {
+        "x": 1403,
+        "y": 701
+      }
+    },
+    {
+      "name": "living_tornado_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1650,
+        "y": 390,
+        "w": 263,
+        "h": 310
+      },
+      "anchor": {
+        "x": 1782,
+        "y": 699
+      }
+    },
+    {
+      "name": "wind_dragon_attack_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 15,
+        "y": 762,
+        "w": 375,
+        "h": 381
+      },
+      "anchor": {
+        "x": 203,
+        "y": 1142
+      }
+    },
+    {
+      "name": "wind_dragon_attack_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 418,
+        "y": 788,
+        "w": 415,
+        "h": 357
+      },
+      "anchor": {
+        "x": 626,
+        "y": 1144
+      }
+    },
+    {
+      "name": "wind_dragon_attack_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 821,
+        "y": 727,
+        "w": 429,
+        "h": 424
+      },
+      "anchor": {
+        "x": 1036,
+        "y": 1150
+      }
+    },
+    {
+      "name": "wind_dragon_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1246,
+        "y": 729,
+        "w": 367,
+        "h": 422
+      },
+      "anchor": {
+        "x": 1430,
+        "y": 1150
+      }
+    },
+    {
+      "name": "wind_dragon_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1629,
+        "y": 812,
+        "w": 338,
+        "h": 336
+      },
+      "anchor": {
+        "x": 1798,
+        "y": 1147
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "harpy_volley",
+      "frames": [
+        {
+          "name": "harpy_volley_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 9,
+            "y": 3,
+            "w": 362,
+            "h": 321
+          },
+          "anchor": {
+            "x": 190,
+            "y": 323
+          }
+        },
+        {
+          "name": "harpy_volley_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 406,
+            "y": 36,
+            "w": 293,
+            "h": 288
+          },
+          "anchor": {
+            "x": 553,
+            "y": 323
+          }
+        },
+        {
+          "name": "harpy_volley_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 744,
+            "y": 4,
+            "w": 424,
+            "h": 320
+          },
+          "anchor": {
+            "x": 956,
+            "y": 323
+          }
+        },
+        {
+          "name": "harpy_volley_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1186,
+            "y": 1,
+            "w": 391,
+            "h": 324
+          },
+          "anchor": {
+            "x": 1382,
+            "y": 324
+          }
+        },
+        {
+          "name": "harpy_volley_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1666,
+            "y": 20,
+            "w": 274,
+            "h": 305
+          },
+          "anchor": {
+            "x": 1803,
+            "y": 324
+          }
+        }
+      ]
+    },
+    {
+      "name": "living_tornado_attack",
+      "frames": [
+        {
+          "name": "living_tornado_attack_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 60,
+            "y": 368,
+            "w": 278,
+            "h": 335
+          },
+          "anchor": {
+            "x": 199,
+            "y": 702
+          }
+        },
+        {
+          "name": "living_tornado_attack_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 452,
+            "y": 366,
+            "w": 297,
+            "h": 337
+          },
+          "anchor": {
+            "x": 601,
+            "y": 702
+          }
+        },
+        {
+          "name": "living_tornado_attack_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 822,
+            "y": 352,
+            "w": 372,
+            "h": 357
+          },
+          "anchor": {
+            "x": 1008,
+            "y": 708
+          }
+        },
+        {
+          "name": "living_tornado_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1246,
+            "y": 363,
+            "w": 314,
+            "h": 339
+          },
+          "anchor": {
+            "x": 1403,
+            "y": 701
+          }
+        },
+        {
+          "name": "living_tornado_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1650,
+            "y": 390,
+            "w": 263,
+            "h": 310
+          },
+          "anchor": {
+            "x": 1782,
+            "y": 699
+          }
+        }
+      ]
+    },
+    {
+      "name": "wind_dragon_attack",
+      "frames": [
+        {
+          "name": "wind_dragon_attack_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 15,
+            "y": 762,
+            "w": 375,
+            "h": 381
+          },
+          "anchor": {
+            "x": 203,
+            "y": 1142
+          }
+        },
+        {
+          "name": "wind_dragon_attack_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 418,
+            "y": 788,
+            "w": 415,
+            "h": 357
+          },
+          "anchor": {
+            "x": 626,
+            "y": 1144
+          }
+        },
+        {
+          "name": "wind_dragon_attack_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 821,
+            "y": 727,
+            "w": 429,
+            "h": 424
+          },
+          "anchor": {
+            "x": 1036,
+            "y": 1150
+          }
+        },
+        {
+          "name": "wind_dragon_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1246,
+            "y": 729,
+            "w": 367,
+            "h": 422
+          },
+          "anchor": {
+            "x": 1430,
+            "y": 1150
+          }
+        },
+        {
+          "name": "wind_dragon_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1629,
+            "y": 812,
+            "w": 338,
+            "h": 336
+          },
+          "anchor": {
+            "x": 1798,
+            "y": 1147
+          }
+        }
+      ]
+    }
+  ]
+}

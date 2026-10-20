@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_5_elite-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "curious_ghost_phase_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 27,
+        "y": 32,
+        "w": 340,
+        "h": 322
+      },
+      "anchor": {
+        "x": 197,
+        "y": 353
+      }
+    },
+    {
+      "name": "curious_ghost_phase_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 438,
+        "y": 33,
+        "w": 280,
+        "h": 319
+      },
+      "anchor": {
+        "x": 578,
+        "y": 351
+      }
+    },
+    {
+      "name": "curious_ghost_phase_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 769,
+        "y": 31,
+        "w": 353,
+        "h": 323
+      },
+      "anchor": {
+        "x": 946,
+        "y": 353
+      }
+    },
+    {
+      "name": "curious_ghost_phase_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1179,
+        "y": 32,
+        "w": 351,
+        "h": 318
+      },
+      "anchor": {
+        "x": 1355,
+        "y": 349
+      }
+    },
+    {
+      "name": "curious_ghost_phase_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1588,
+        "y": 32,
+        "w": 342,
+        "h": 323
+      },
+      "anchor": {
+        "x": 1759,
+        "y": 354
+      }
+    },
+    {
+      "name": "flying_knight_attack_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 21,
+        "y": 394,
+        "w": 364,
+        "h": 311
+      },
+      "anchor": {
+        "x": 203,
+        "y": 704
+      }
+    },
+    {
+      "name": "flying_knight_attack_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 440,
+        "y": 402,
+        "w": 315,
+        "h": 302
+      },
+      "anchor": {
+        "x": 598,
+        "y": 703
+      }
+    },
+    {
+      "name": "flying_knight_attack_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 749,
+        "y": 394,
+        "w": 496,
+        "h": 311
+      },
+      "anchor": {
+        "x": 997,
+        "y": 704
+      }
+    },
+    {
+      "name": "flying_knight_attack_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1244,
+        "y": 395,
+        "w": 345,
+        "h": 310
+      },
+      "anchor": {
+        "x": 1417,
+        "y": 704
+      }
+    },
+    {
+      "name": "flying_knight_attack_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1584,
+        "y": 394,
+        "w": 361,
+        "h": 311
+      },
+      "anchor": {
+        "x": 1765,
+        "y": 704
+      }
+    },
+    {
+      "name": "lich_laser_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 30,
+        "y": 730,
+        "w": 346,
+        "h": 433
+      },
+      "anchor": {
+        "x": 203,
+        "y": 1162
+      }
+    },
+    {
+      "name": "lich_laser_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 396,
+        "y": 731,
+        "w": 397,
+        "h": 432
+      },
+      "anchor": {
+        "x": 595,
+        "y": 1162
+      }
+    },
+    {
+      "name": "lich_laser_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 793,
+        "y": 735,
+        "w": 436,
+        "h": 428
+      },
+      "anchor": {
+        "x": 1011,
+        "y": 1162
+      }
+    },
+    {
+      "name": "lich_laser_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1248,
+        "y": 732,
+        "w": 350,
+        "h": 431
+      },
+      "anchor": {
+        "x": 1423,
+        "y": 1162
+      }
+    },
+    {
+      "name": "lich_laser_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1616,
+        "y": 730,
+        "w": 331,
+        "h": 432
+      },
+      "anchor": {
+        "x": 1782,
+        "y": 1161
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "curious_ghost_phase",
+      "frames": [
+        {
+          "name": "curious_ghost_phase_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 27,
+            "y": 32,
+            "w": 340,
+            "h": 322
+          },
+          "anchor": {
+            "x": 197,
+            "y": 353
+          }
+        },
+        {
+          "name": "curious_ghost_phase_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 438,
+            "y": 33,
+            "w": 280,
+            "h": 319
+          },
+          "anchor": {
+            "x": 578,
+            "y": 351
+          }
+        },
+        {
+          "name": "curious_ghost_phase_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 769,
+            "y": 31,
+            "w": 353,
+            "h": 323
+          },
+          "anchor": {
+            "x": 946,
+            "y": 353
+          }
+        },
+        {
+          "name": "curious_ghost_phase_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1179,
+            "y": 32,
+            "w": 351,
+            "h": 318
+          },
+          "anchor": {
+            "x": 1355,
+            "y": 349
+          }
+        },
+        {
+          "name": "curious_ghost_phase_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1588,
+            "y": 32,
+            "w": 342,
+            "h": 323
+          },
+          "anchor": {
+            "x": 1759,
+            "y": 354
+          }
+        }
+      ]
+    },
+    {
+      "name": "flying_knight_attack",
+      "frames": [
+        {
+          "name": "flying_knight_attack_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 21,
+            "y": 394,
+            "w": 364,
+            "h": 311
+          },
+          "anchor": {
+            "x": 203,
+            "y": 704
+          }
+        },
+        {
+          "name": "flying_knight_attack_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 440,
+            "y": 402,
+            "w": 315,
+            "h": 302
+          },
+          "anchor": {
+            "x": 598,
+            "y": 703
+          }
+        },
+        {
+          "name": "flying_knight_attack_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 749,
+            "y": 394,
+            "w": 496,
+            "h": 311
+          },
+          "anchor": {
+            "x": 997,
+            "y": 704
+          }
+        },
+        {
+          "name": "flying_knight_attack_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1244,
+            "y": 395,
+            "w": 345,
+            "h": 310
+          },
+          "anchor": {
+            "x": 1417,
+            "y": 704
+          }
+        },
+        {
+          "name": "flying_knight_attack_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1584,
+            "y": 394,
+            "w": 361,
+            "h": 311
+          },
+          "anchor": {
+            "x": 1765,
+            "y": 704
+          }
+        }
+      ]
+    },
+    {
+      "name": "lich_laser",
+      "frames": [
+        {
+          "name": "lich_laser_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 30,
+            "y": 730,
+            "w": 346,
+            "h": 433
+          },
+          "anchor": {
+            "x": 203,
+            "y": 1162
+          }
+        },
+        {
+          "name": "lich_laser_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 396,
+            "y": 731,
+            "w": 397,
+            "h": 432
+          },
+          "anchor": {
+            "x": 595,
+            "y": 1162
+          }
+        },
+        {
+          "name": "lich_laser_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 793,
+            "y": 735,
+            "w": 436,
+            "h": 428
+          },
+          "anchor": {
+            "x": 1011,
+            "y": 1162
+          }
+        },
+        {
+          "name": "lich_laser_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1248,
+            "y": 732,
+            "w": 350,
+            "h": 431
+          },
+          "anchor": {
+            "x": 1423,
+            "y": 1162
+          }
+        },
+        {
+          "name": "lich_laser_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1616,
+            "y": 730,
+            "w": 331,
+            "h": 432
+          },
+          "anchor": {
+            "x": 1782,
+            "y": 1161
+          }
+        }
+      ]
+    }
+  ]
+}

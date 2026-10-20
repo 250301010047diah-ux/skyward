@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_4_common-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "toxic_spore_float_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 77,
+        "y": 69,
+        "w": 258,
+        "h": 278
+      },
+      "anchor": {
+        "x": 206,
+        "y": 346
+      }
+    },
+    {
+      "name": "toxic_spore_float_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 424,
+        "y": 55,
+        "w": 316,
+        "h": 313
+      },
+      "anchor": {
+        "x": 582,
+        "y": 367
+      }
+    },
+    {
+      "name": "toxic_spore_float_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 797,
+        "y": 30,
+        "w": 376,
+        "h": 362
+      },
+      "anchor": {
+        "x": 985,
+        "y": 391
+      }
+    },
+    {
+      "name": "toxic_spore_float_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1245,
+        "y": 63,
+        "w": 280,
+        "h": 300
+      },
+      "anchor": {
+        "x": 1385,
+        "y": 362
+      }
+    },
+    {
+      "name": "toxic_spore_float_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1641,
+        "y": 73,
+        "w": 260,
+        "h": 277
+      },
+      "anchor": {
+        "x": 1771,
+        "y": 349
+      }
+    },
+    {
+      "name": "swamp_leech_crawl_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 40,
+        "y": 479,
+        "w": 309,
+        "h": 211
+      },
+      "anchor": {
+        "x": 195,
+        "y": 689
+      }
+    },
+    {
+      "name": "swamp_leech_crawl_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 402,
+        "y": 474,
+        "w": 364,
+        "h": 219
+      },
+      "anchor": {
+        "x": 584,
+        "y": 692
+      }
+    },
+    {
+      "name": "swamp_leech_crawl_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 794,
+        "y": 444,
+        "w": 408,
+        "h": 240
+      },
+      "anchor": {
+        "x": 998,
+        "y": 683
+      }
+    },
+    {
+      "name": "swamp_leech_crawl_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1217,
+        "y": 469,
+        "w": 351,
+        "h": 226
+      },
+      "anchor": {
+        "x": 1393,
+        "y": 694
+      }
+    },
+    {
+      "name": "swamp_leech_crawl_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1615,
+        "y": 481,
+        "w": 312,
+        "h": 213
+      },
+      "anchor": {
+        "x": 1771,
+        "y": 693
+      }
+    },
+    {
+      "name": "bog_mosquito_hover_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 66,
+        "y": 744,
+        "w": 294,
+        "h": 380
+      },
+      "anchor": {
+        "x": 213,
+        "y": 1123
+      }
+    },
+    {
+      "name": "bog_mosquito_hover_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 418,
+        "y": 809,
+        "w": 346,
+        "h": 301
+      },
+      "anchor": {
+        "x": 591,
+        "y": 1109
+      }
+    },
+    {
+      "name": "bog_mosquito_hover_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 801,
+        "y": 842,
+        "w": 357,
+        "h": 280
+      },
+      "anchor": {
+        "x": 980,
+        "y": 1121
+      }
+    },
+    {
+      "name": "bog_mosquito_hover_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1205,
+        "y": 783,
+        "w": 343,
+        "h": 340
+      },
+      "anchor": {
+        "x": 1377,
+        "y": 1122
+      }
+    },
+    {
+      "name": "bog_mosquito_hover_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1611,
+        "y": 754,
+        "w": 309,
+        "h": 376
+      },
+      "anchor": {
+        "x": 1766,
+        "y": 1129
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "toxic_spore_float",
+      "frames": [
+        {
+          "name": "toxic_spore_float_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 77,
+            "y": 69,
+            "w": 258,
+            "h": 278
+          },
+          "anchor": {
+            "x": 206,
+            "y": 346
+          }
+        },
+        {
+          "name": "toxic_spore_float_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 424,
+            "y": 55,
+            "w": 316,
+            "h": 313
+          },
+          "anchor": {
+            "x": 582,
+            "y": 367
+          }
+        },
+        {
+          "name": "toxic_spore_float_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 797,
+            "y": 30,
+            "w": 376,
+            "h": 362
+          },
+          "anchor": {
+            "x": 985,
+            "y": 391
+          }
+        },
+        {
+          "name": "toxic_spore_float_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1245,
+            "y": 63,
+            "w": 280,
+            "h": 300
+          },
+          "anchor": {
+            "x": 1385,
+            "y": 362
+          }
+        },
+        {
+          "name": "toxic_spore_float_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1641,
+            "y": 73,
+            "w": 260,
+            "h": 277
+          },
+          "anchor": {
+            "x": 1771,
+            "y": 349
+          }
+        }
+      ]
+    },
+    {
+      "name": "swamp_leech_crawl",
+      "frames": [
+        {
+          "name": "swamp_leech_crawl_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 40,
+            "y": 479,
+            "w": 309,
+            "h": 211
+          },
+          "anchor": {
+            "x": 195,
+            "y": 689
+          }
+        },
+        {
+          "name": "swamp_leech_crawl_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 402,
+            "y": 474,
+            "w": 364,
+            "h": 219
+          },
+          "anchor": {
+            "x": 584,
+            "y": 692
+          }
+        },
+        {
+          "name": "swamp_leech_crawl_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 794,
+            "y": 444,
+            "w": 408,
+            "h": 240
+          },
+          "anchor": {
+            "x": 998,
+            "y": 683
+          }
+        },
+        {
+          "name": "swamp_leech_crawl_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1217,
+            "y": 469,
+            "w": 351,
+            "h": 226
+          },
+          "anchor": {
+            "x": 1393,
+            "y": 694
+          }
+        },
+        {
+          "name": "swamp_leech_crawl_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1615,
+            "y": 481,
+            "w": 312,
+            "h": 213
+          },
+          "anchor": {
+            "x": 1771,
+            "y": 693
+          }
+        }
+      ]
+    },
+    {
+      "name": "bog_mosquito_hover",
+      "frames": [
+        {
+          "name": "bog_mosquito_hover_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 66,
+            "y": 744,
+            "w": 294,
+            "h": 380
+          },
+          "anchor": {
+            "x": 213,
+            "y": 1123
+          }
+        },
+        {
+          "name": "bog_mosquito_hover_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 418,
+            "y": 809,
+            "w": 346,
+            "h": 301
+          },
+          "anchor": {
+            "x": 591,
+            "y": 1109
+          }
+        },
+        {
+          "name": "bog_mosquito_hover_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 801,
+            "y": 842,
+            "w": 357,
+            "h": 280
+          },
+          "anchor": {
+            "x": 980,
+            "y": 1121
+          }
+        },
+        {
+          "name": "bog_mosquito_hover_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1205,
+            "y": 783,
+            "w": 343,
+            "h": 340
+          },
+          "anchor": {
+            "x": 1377,
+            "y": 1122
+          }
+        },
+        {
+          "name": "bog_mosquito_hover_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1611,
+            "y": 754,
+            "w": 309,
+            "h": 376
+          },
+          "anchor": {
+            "x": 1766,
+            "y": 1129
+          }
+        }
+      ]
+    }
+  ]
+}

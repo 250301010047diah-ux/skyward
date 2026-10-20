@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_17_elite-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "dream_harlequin_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 27,
+        "y": 36,
+        "w": 332,
+        "h": 316
+      },
+      "anchor": {
+        "x": 193,
+        "y": 351
+      }
+    },
+    {
+      "name": "dream_harlequin_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 403,
+        "y": 27,
+        "w": 323,
+        "h": 324
+      },
+      "anchor": {
+        "x": 565,
+        "y": 350
+      }
+    },
+    {
+      "name": "dream_harlequin_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 765,
+        "y": 22,
+        "w": 423,
+        "h": 336
+      },
+      "anchor": {
+        "x": 977,
+        "y": 357
+      }
+    },
+    {
+      "name": "dream_harlequin_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1214,
+        "y": 38,
+        "w": 352,
+        "h": 320
+      },
+      "anchor": {
+        "x": 1390,
+        "y": 357
+      }
+    },
+    {
+      "name": "dream_harlequin_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1609,
+        "y": 41,
+        "w": 305,
+        "h": 317
+      },
+      "anchor": {
+        "x": 1762,
+        "y": 357
+      }
+    },
+    {
+      "name": "carousel_beast_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 16,
+        "y": 401,
+        "w": 345,
+        "h": 297
+      },
+      "anchor": {
+        "x": 189,
+        "y": 697
+      }
+    },
+    {
+      "name": "carousel_beast_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 389,
+        "y": 397,
+        "w": 377,
+        "h": 301
+      },
+      "anchor": {
+        "x": 578,
+        "y": 697
+      }
+    },
+    {
+      "name": "carousel_beast_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 789,
+        "y": 388,
+        "w": 425,
+        "h": 281
+      },
+      "anchor": {
+        "x": 1002,
+        "y": 668
+      }
+    },
+    {
+      "name": "carousel_beast_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1234,
+        "y": 415,
+        "w": 345,
+        "h": 283
+      },
+      "anchor": {
+        "x": 1407,
+        "y": 697
+      }
+    },
+    {
+      "name": "carousel_beast_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1600,
+        "y": 402,
+        "w": 349,
+        "h": 296
+      },
+      "anchor": {
+        "x": 1775,
+        "y": 697
+      }
+    },
+    {
+      "name": "nightmare_ringmaster_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 15,
+        "y": 729,
+        "w": 341,
+        "h": 429
+      },
+      "anchor": {
+        "x": 186,
+        "y": 1157
+      }
+    },
+    {
+      "name": "nightmare_ringmaster_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 388,
+        "y": 722,
+        "w": 351,
+        "h": 441
+      },
+      "anchor": {
+        "x": 564,
+        "y": 1162
+      }
+    },
+    {
+      "name": "nightmare_ringmaster_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 770,
+        "y": 718,
+        "w": 453,
+        "h": 446
+      },
+      "anchor": {
+        "x": 997,
+        "y": 1163
+      }
+    },
+    {
+      "name": "nightmare_ringmaster_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1245,
+        "y": 728,
+        "w": 355,
+        "h": 428
+      },
+      "anchor": {
+        "x": 1423,
+        "y": 1155
+      }
+    },
+    {
+      "name": "nightmare_ringmaster_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1610,
+        "y": 738,
+        "w": 343,
+        "h": 421
+      },
+      "anchor": {
+        "x": 1782,
+        "y": 1158
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "dream_harlequin",
+      "frames": [
+        {
+          "name": "dream_harlequin_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 27,
+            "y": 36,
+            "w": 332,
+            "h": 316
+          },
+          "anchor": {
+            "x": 193,
+            "y": 351
+          }
+        },
+        {
+          "name": "dream_harlequin_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 403,
+            "y": 27,
+            "w": 323,
+            "h": 324
+          },
+          "anchor": {
+            "x": 565,
+            "y": 350
+          }
+        },
+        {
+          "name": "dream_harlequin_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 765,
+            "y": 22,
+            "w": 423,
+            "h": 336
+          },
+          "anchor": {
+            "x": 977,
+            "y": 357
+          }
+        },
+        {
+          "name": "dream_harlequin_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1214,
+            "y": 38,
+            "w": 352,
+            "h": 320
+          },
+          "anchor": {
+            "x": 1390,
+            "y": 357
+          }
+        },
+        {
+          "name": "dream_harlequin_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1609,
+            "y": 41,
+            "w": 305,
+            "h": 317
+          },
+          "anchor": {
+            "x": 1762,
+            "y": 357
+          }
+        }
+      ]
+    },
+    {
+      "name": "carousel_beast",
+      "frames": [
+        {
+          "name": "carousel_beast_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 16,
+            "y": 401,
+            "w": 345,
+            "h": 297
+          },
+          "anchor": {
+            "x": 189,
+            "y": 697
+          }
+        },
+        {
+          "name": "carousel_beast_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 389,
+            "y": 397,
+            "w": 377,
+            "h": 301
+          },
+          "anchor": {
+            "x": 578,
+            "y": 697
+          }
+        },
+        {
+          "name": "carousel_beast_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 789,
+            "y": 388,
+            "w": 425,
+            "h": 281
+          },
+          "anchor": {
+            "x": 1002,
+            "y": 668
+          }
+        },
+        {
+          "name": "carousel_beast_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1234,
+            "y": 415,
+            "w": 345,
+            "h": 283
+          },
+          "anchor": {
+            "x": 1407,
+            "y": 697
+          }
+        },
+        {
+          "name": "carousel_beast_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1600,
+            "y": 402,
+            "w": 349,
+            "h": 296
+          },
+          "anchor": {
+            "x": 1775,
+            "y": 697
+          }
+        }
+      ]
+    },
+    {
+      "name": "nightmare_ringmaster",
+      "frames": [
+        {
+          "name": "nightmare_ringmaster_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 15,
+            "y": 729,
+            "w": 341,
+            "h": 429
+          },
+          "anchor": {
+            "x": 186,
+            "y": 1157
+          }
+        },
+        {
+          "name": "nightmare_ringmaster_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 388,
+            "y": 722,
+            "w": 351,
+            "h": 441
+          },
+          "anchor": {
+            "x": 564,
+            "y": 1162
+          }
+        },
+        {
+          "name": "nightmare_ringmaster_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 770,
+            "y": 718,
+            "w": 453,
+            "h": 446
+          },
+          "anchor": {
+            "x": 997,
+            "y": 1163
+          }
+        },
+        {
+          "name": "nightmare_ringmaster_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1245,
+            "y": 728,
+            "w": 355,
+            "h": 428
+          },
+          "anchor": {
+            "x": 1423,
+            "y": 1155
+          }
+        },
+        {
+          "name": "nightmare_ringmaster_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1610,
+            "y": 738,
+            "w": 343,
+            "h": 421
+          },
+          "anchor": {
+            "x": 1782,
+            "y": 1158
+          }
+        }
+      ]
+    }
+  ]
+}

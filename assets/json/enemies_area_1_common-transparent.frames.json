@@ -1,0 +1,598 @@
+{
+  "image": "/generated-assets/enemies_area_1_common-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 3,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "caterpillar_fall_1",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 73,
+        "y": 16,
+        "w": 260,
+        "h": 364
+      },
+      "anchor": {
+        "x": 203,
+        "y": 379
+      }
+    },
+    {
+      "name": "caterpillar_fall_2",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 443,
+        "y": 91,
+        "w": 310,
+        "h": 276
+      },
+      "anchor": {
+        "x": 598,
+        "y": 366
+      }
+    },
+    {
+      "name": "caterpillar_fall_3",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 846,
+        "y": 136,
+        "w": 279,
+        "h": 244
+      },
+      "anchor": {
+        "x": 986,
+        "y": 379
+      }
+    },
+    {
+      "name": "caterpillar_fall_4",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1228,
+        "y": 90,
+        "w": 285,
+        "h": 284
+      },
+      "anchor": {
+        "x": 1371,
+        "y": 373
+      }
+    },
+    {
+      "name": "caterpillar_fall_5",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1641,
+        "y": 16,
+        "w": 260,
+        "h": 365
+      },
+      "anchor": {
+        "x": 1771,
+        "y": 380
+      }
+    },
+    {
+      "name": "horn_beetle_bounce_1",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 36,
+        "y": 459,
+        "w": 342,
+        "h": 277
+      },
+      "anchor": {
+        "x": 207,
+        "y": 735
+      }
+    },
+    {
+      "name": "horn_beetle_bounce_2",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 446,
+        "y": 436,
+        "w": 319,
+        "h": 267
+      },
+      "anchor": {
+        "x": 606,
+        "y": 702
+      }
+    },
+    {
+      "name": "horn_beetle_bounce_3",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 822,
+        "y": 481,
+        "w": 330,
+        "h": 256
+      },
+      "anchor": {
+        "x": 987,
+        "y": 736
+      }
+    },
+    {
+      "name": "horn_beetle_bounce_4",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1207,
+        "y": 499,
+        "w": 335,
+        "h": 241
+      },
+      "anchor": {
+        "x": 1375,
+        "y": 739
+      }
+    },
+    {
+      "name": "horn_beetle_bounce_5",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1598,
+        "y": 459,
+        "w": 341,
+        "h": 278
+      },
+      "anchor": {
+        "x": 1769,
+        "y": 736
+      }
+    },
+    {
+      "name": "thorn_seed_spin_1",
+      "source": {
+        "x": 56,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 42,
+        "y": 809,
+        "w": 324,
+        "h": 327
+      },
+      "anchor": {
+        "x": 204,
+        "y": 1135
+      }
+    },
+    {
+      "name": "thorn_seed_spin_2",
+      "source": {
+        "x": 440,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 433,
+        "y": 809,
+        "w": 330,
+        "h": 329
+      },
+      "anchor": {
+        "x": 598,
+        "y": 1137
+      }
+    },
+    {
+      "name": "thorn_seed_spin_3",
+      "source": {
+        "x": 824,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 824,
+        "y": 804,
+        "w": 326,
+        "h": 333
+      },
+      "anchor": {
+        "x": 987,
+        "y": 1136
+      }
+    },
+    {
+      "name": "thorn_seed_spin_4",
+      "source": {
+        "x": 1208,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1210,
+        "y": 806,
+        "w": 331,
+        "h": 330
+      },
+      "anchor": {
+        "x": 1376,
+        "y": 1135
+      }
+    },
+    {
+      "name": "thorn_seed_spin_5",
+      "source": {
+        "x": 1592,
+        "y": 824,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1605,
+        "y": 810,
+        "w": 324,
+        "h": 326
+      },
+      "anchor": {
+        "x": 1767,
+        "y": 1135
+      }
+    }
+  ],
+  "animations": [
+    {
+      "name": "caterpillar_fall",
+      "frames": [
+        {
+          "name": "caterpillar_fall_1",
+          "source": {
+            "x": 56,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 73,
+            "y": 16,
+            "w": 260,
+            "h": 364
+          },
+          "anchor": {
+            "x": 203,
+            "y": 379
+          }
+        },
+        {
+          "name": "caterpillar_fall_2",
+          "source": {
+            "x": 440,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 443,
+            "y": 91,
+            "w": 310,
+            "h": 276
+          },
+          "anchor": {
+            "x": 598,
+            "y": 366
+          }
+        },
+        {
+          "name": "caterpillar_fall_3",
+          "source": {
+            "x": 824,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 846,
+            "y": 136,
+            "w": 279,
+            "h": 244
+          },
+          "anchor": {
+            "x": 986,
+            "y": 379
+          }
+        },
+        {
+          "name": "caterpillar_fall_4",
+          "source": {
+            "x": 1208,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1228,
+            "y": 90,
+            "w": 285,
+            "h": 284
+          },
+          "anchor": {
+            "x": 1371,
+            "y": 373
+          }
+        },
+        {
+          "name": "caterpillar_fall_5",
+          "source": {
+            "x": 1592,
+            "y": 56,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1641,
+            "y": 16,
+            "w": 260,
+            "h": 365
+          },
+          "anchor": {
+            "x": 1771,
+            "y": 380
+          }
+        }
+      ]
+    },
+    {
+      "name": "horn_beetle_bounce",
+      "frames": [
+        {
+          "name": "horn_beetle_bounce_1",
+          "source": {
+            "x": 56,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 36,
+            "y": 459,
+            "w": 342,
+            "h": 277
+          },
+          "anchor": {
+            "x": 207,
+            "y": 735
+          }
+        },
+        {
+          "name": "horn_beetle_bounce_2",
+          "source": {
+            "x": 440,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 446,
+            "y": 436,
+            "w": 319,
+            "h": 267
+          },
+          "anchor": {
+            "x": 606,
+            "y": 702
+          }
+        },
+        {
+          "name": "horn_beetle_bounce_3",
+          "source": {
+            "x": 824,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 822,
+            "y": 481,
+            "w": 330,
+            "h": 256
+          },
+          "anchor": {
+            "x": 987,
+            "y": 736
+          }
+        },
+        {
+          "name": "horn_beetle_bounce_4",
+          "source": {
+            "x": 1208,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1207,
+            "y": 499,
+            "w": 335,
+            "h": 241
+          },
+          "anchor": {
+            "x": 1375,
+            "y": 739
+          }
+        },
+        {
+          "name": "horn_beetle_bounce_5",
+          "source": {
+            "x": 1592,
+            "y": 440,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1598,
+            "y": 459,
+            "w": 341,
+            "h": 278
+          },
+          "anchor": {
+            "x": 1769,
+            "y": 736
+          }
+        }
+      ]
+    },
+    {
+      "name": "thorn_seed_spin",
+      "frames": [
+        {
+          "name": "thorn_seed_spin_1",
+          "source": {
+            "x": 56,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 42,
+            "y": 809,
+            "w": 324,
+            "h": 327
+          },
+          "anchor": {
+            "x": 204,
+            "y": 1135
+          }
+        },
+        {
+          "name": "thorn_seed_spin_2",
+          "source": {
+            "x": 440,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 433,
+            "y": 809,
+            "w": 330,
+            "h": 329
+          },
+          "anchor": {
+            "x": 598,
+            "y": 1137
+          }
+        },
+        {
+          "name": "thorn_seed_spin_3",
+          "source": {
+            "x": 824,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 824,
+            "y": 804,
+            "w": 326,
+            "h": 333
+          },
+          "anchor": {
+            "x": 987,
+            "y": 1136
+          }
+        },
+        {
+          "name": "thorn_seed_spin_4",
+          "source": {
+            "x": 1208,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1210,
+            "y": 806,
+            "w": 331,
+            "h": 330
+          },
+          "anchor": {
+            "x": 1376,
+            "y": 1135
+          }
+        },
+        {
+          "name": "thorn_seed_spin_5",
+          "source": {
+            "x": 1592,
+            "y": 824,
+            "w": 320,
+            "h": 320
+          },
+          "content": {
+            "x": 1605,
+            "y": 810,
+            "w": 324,
+            "h": 326
+          },
+          "anchor": {
+            "x": 1767,
+            "y": 1135
+          }
+        }
+      ]
+    }
+  ]
+}

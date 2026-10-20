@@ -1,0 +1,201 @@
+{
+  "image": "/generated-assets/ground_atlas_3-transparent.webp",
+  "grid": {
+    "cols": 5,
+    "rows": 2,
+    "frameWidth": 320,
+    "frameHeight": 320
+  },
+  "frames": [
+    {
+      "name": "neon_fae",
+      "source": {
+        "x": 56,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 24,
+        "y": 119,
+        "w": 350,
+        "h": 209
+      },
+      "anchor": {
+        "x": 199,
+        "y": 327
+      }
+    },
+    {
+      "name": "tempest_ocean",
+      "source": {
+        "x": 440,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 408,
+        "y": 119,
+        "w": 353,
+        "h": 209
+      },
+      "anchor": {
+        "x": 585,
+        "y": 327
+      }
+    },
+    {
+      "name": "candy_nightmare",
+      "source": {
+        "x": 824,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 796,
+        "y": 117,
+        "w": 355,
+        "h": 211
+      },
+      "anchor": {
+        "x": 974,
+        "y": 327
+      }
+    },
+    {
+      "name": "infinite_library",
+      "source": {
+        "x": 1208,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1186,
+        "y": 119,
+        "w": 353,
+        "h": 209
+      },
+      "anchor": {
+        "x": 1363,
+        "y": 327
+      }
+    },
+    {
+      "name": "star_hive",
+      "source": {
+        "x": 1592,
+        "y": 56,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1576,
+        "y": 111,
+        "w": 355,
+        "h": 223
+      },
+      "anchor": {
+        "x": 1754,
+        "y": 333
+      }
+    },
+    {
+      "name": "solar_factory",
+      "source": {
+        "x": 56,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 24,
+        "y": 482,
+        "w": 350,
+        "h": 210
+      },
+      "anchor": {
+        "x": 199,
+        "y": 691
+      }
+    },
+    {
+      "name": "frozen_time",
+      "source": {
+        "x": 440,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 407,
+        "y": 481,
+        "w": 355,
+        "h": 215
+      },
+      "anchor": {
+        "x": 585,
+        "y": 695
+      }
+    },
+    {
+      "name": "shadow_bazaar",
+      "source": {
+        "x": 824,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 789,
+        "y": 481,
+        "w": 368,
+        "h": 210
+      },
+      "anchor": {
+        "x": 973,
+        "y": 690
+      }
+    },
+    {
+      "name": "titan_dream",
+      "source": {
+        "x": 1208,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1185,
+        "y": 479,
+        "w": 356,
+        "h": 212
+      },
+      "anchor": {
+        "x": 1363,
+        "y": 690
+      }
+    },
+    {
+      "name": "multiverse_crown",
+      "source": {
+        "x": 1592,
+        "y": 440,
+        "w": 320,
+        "h": 320
+      },
+      "content": {
+        "x": 1571,
+        "y": 476,
+        "w": 364,
+        "h": 219
+      },
+      "anchor": {
+        "x": 1753,
+        "y": 694
+      }
+    }
+  ]
+}
