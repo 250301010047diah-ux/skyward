@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Optional local assets and build output
+/assets/audio/
+/skyfall-bowguard.apk

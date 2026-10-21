@@ -537,10 +537,12 @@ class GameWorld {
 
     player.actionName = type;
     player.actionTimer = type == 'ultimate' ? 0.85 : 0.58;
-    if (type == 'skill1')
+    if (type == 'skill1') {
       player.skill1Cooldown = max(3.2, 5.8 - skinIndex * 0.09);
-    if (type == 'skill2')
+    }
+    if (type == 'skill2') {
       player.skill2Cooldown = max(5.5, 9.4 - skinIndex * 0.15);
+    }
     if (type == 'ultimate') player.ultimate = 0;
 
     activateExactSkill(skinIndex, type, power);
@@ -770,8 +772,9 @@ class GameWorld {
         player.shieldCharges += 1;
         player.buffs['freeze'] = 4;
       }
-      if (skin == 4)
+      if (skin == 4) {
         addZone('totem', 3, x: player.x, damage: 2.2 * power, interval: 0.35);
+      }
       if (skin == 5) {
         abilityArrow(0, 1.2 * power, homing: true, pierce: true, maxHits: 1);
         player.shieldCharges += 1;
@@ -830,7 +833,7 @@ class GameWorld {
     }
 
     if (type == 'ultimate') {
-      if (skin == 0)
+      if (skin == 0) {
         addZone(
           'arrowrain',
           2.4,
@@ -838,10 +841,13 @@ class GameWorld {
           interval: 0.12,
           count: 15,
         );
-      if (skin == 1)
+      }
+      if (skin == 1) {
         addZone('tornado', 4, x: width * 0.5, radius: 170, damage: 1.5 * power);
-      if (skin == 2)
+      }
+      if (skin == 2) {
         addZone('meteors', 1.8, damage: 8 * power, interval: 0.45, count: 3);
+      }
       if (skin == 3) {
         timeStop = 4;
         projectiles.clear();
@@ -849,10 +855,12 @@ class GameWorld {
           enemy.slowTimer = 4;
         }
       }
-      if (skin == 4)
+      if (skin == 4) {
         damageTargets(airborne().take(10), 10 * power, critical: true);
-      if (skin == 5)
+      }
+      if (skin == 5) {
         addZone('gatling', 3, damage: 1.1 * power, interval: 0.055, count: 50);
+      }
       if (skin == 6) {
         projectiles.clear();
         damageTargets(living(), 7 * power);
@@ -873,8 +881,9 @@ class GameWorld {
         damageModeTimer = 5;
       }
       if (skin == 9) damageTargets(living(), 15 * power, critical: true);
-      if (skin == 10)
+      if (skin == 10) {
         addZone('bloodfloor', 3, damage: 3.3 * power, interval: 0.25);
+      }
       if (skin == 11) damageTargets(commons(), 9999, killCommon: true);
       if (skin == 12) {
         projectiles.clear();
@@ -884,20 +893,24 @@ class GameWorld {
           18 * power,
         );
       }
-      if (skin == 13)
+      if (skin == 13) {
         addZone('clones', 5, damage: 2.2 * power, interval: 0.16, count: 5);
-      if (skin == 14)
+      }
+      if (skin == 14) {
         addZone('timelasers', 5, damage: 3 * power, interval: 0.2, count: 3);
-      if (skin == 15)
+      }
+      if (skin == 15) {
         damageTargets(living(), 35 * power, critical: true, killCommon: true);
+      }
       if (skin == 16) {
         damageTargets(commons(), 9999, killCommon: true);
         for (final enemy in living().where((entry) => entry.tier == 'boss')) {
           enemy.armor = 0;
         }
       }
-      if (skin == 17)
+      if (skin == 17) {
         damageTargets(living(), 45 * power, critical: true, killCommon: true);
+      }
       if (skin == 18) {
         timeStop = 0.55;
         final boss = living()
@@ -1041,8 +1054,9 @@ class GameWorld {
           );
         }
         if (zone.type == 'meteors') audio.play('explode');
-        if (zone.type == 'meteors')
+        if (zone.type == 'meteors') {
           damageTargets(living().take(4), zone.damage, critical: true);
+        }
         if (const ['gatling', 'clones', 'timelasers'].contains(zone.type)) {
           abilityArrow(
             (random.nextDouble() - 0.5) * 1.3,
@@ -1619,8 +1633,9 @@ class GameWorld {
       } else {
         spawnBeam(player.x, 34);
         _shootSpread(enemy, 3, 235, spread: 0.8);
-        if (enemies.length < 4)
+        if (enemies.length < 4) {
           spawnEnemy('common', commonIndex: 2, child: true);
+        }
       }
     }
     if (areaIndex == 10) {
@@ -1797,8 +1812,9 @@ class GameWorld {
     if (kind == 'power') player.buffs['power'] = 10;
     if (kind == 'freeze') player.buffs['freeze'] = 8;
     if (kind == 'magnet') player.buffs['magnet'] = 12;
-    if (kind == 'heal')
+    if (kind == 'heal') {
       player.health = min(player.maxHealth, player.health + 1);
+    }
     if (kind == 'critical') player.buffs['critical'] = 10;
     if (kind == 'cooldown') {
       player.skill1Cooldown = 0;
@@ -1826,8 +1842,9 @@ class GameWorld {
         final centerY = enemy.y - enemy.size * 0.46;
         final radius = enemy.size * (enemy.tier == 'boss' ? 0.43 : 0.36);
         if (distanceSquared(arrow.x, arrow.y, enemy.x, centerY) >
-            radius * radius)
+            radius * radius) {
           continue;
+        }
         arrow.hits.add(enemy.id);
         final shieldedBoss =
             enemy.tier == 'boss' && areaIndex == 6 && sin(time * 2.1) < -0.1;
@@ -1836,12 +1853,15 @@ class GameWorld {
         if (!shieldedBoss && !phasedGhost) {
           final armorMultiplier = enemy.armor > 0 ? 0.35 : 1.0;
           enemy.hp -= arrow.damage * armorMultiplier;
-          if (arrow.slow != 0)
+          if (arrow.slow != 0) {
             enemy.slowTimer = jsMax(enemy.slowTimer, arrow.slow);
-          if (arrow.poison != 0)
+          }
+          if (arrow.poison != 0) {
             enemy.poisonTimer = jsMax(enemy.poisonTimer, arrow.poison);
-          if (arrow.stun != 0)
+          }
+          if (arrow.stun != 0) {
             enemy.stunTimer = jsMax(enemy.stunTimer, arrow.stun);
+          }
           if (arrow.omni) enemy.armor = 0;
           if (enemy.armor > 0) enemy.armor -= 1;
           effects.add(
@@ -1898,8 +1918,9 @@ class GameWorld {
             ),
           );
         }
-        if (!arrow.pierce || arrow.hits.length >= arrow.maxHits)
+        if (!arrow.pierce || arrow.hits.length >= arrow.maxHits) {
           arrow.dead = true;
+        }
       }
     }
   }

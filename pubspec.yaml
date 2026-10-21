@@ -88,9 +88,6 @@ flutter:
   assets:
     - assets/images/
     - assets/json/
-    # Sound effects and music (empty placeholders until replaced).
-    - assets/audio/sfx/
-    - assets/audio/bgm/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

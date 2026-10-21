@@ -378,8 +378,9 @@ class SkyfallGame extends FlameGame implements MovementSource {
     created.bestScore = saved.bestScore;
     created.setInput(this);
     arena = created;
-    if (_viewport != Size.zero)
+    if (_viewport != Size.zero) {
       created.resize(_viewport.width, _viewport.height);
+    }
   }
 
   /// Picks the background track for the current state; playBgm ignores repeats.
