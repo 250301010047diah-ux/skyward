@@ -1192,7 +1192,7 @@ Widget confirmOverlay({
   },
 );
 
-/// Tutorial pages. Shown on every launch and from the "?" button; can be skipped.
+/// Tutorial pages. Shown before every new run and from help; can be skipped.
 class TutorialOverlay extends StatefulWidget {
   const TutorialOverlay({super.key, required this.onDone});
 

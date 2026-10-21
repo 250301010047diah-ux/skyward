@@ -100,7 +100,6 @@ class SkyfallGame extends FlameGame implements MovementSource {
   Size _viewport = Size.zero;
   double _joyAxis = 0;
   bool _touchFire = false;
-  bool _tutorialShown = false;
   final Set<LogicalKeyboardKey> _keys = {};
   final Random _random = Random();
   bool _tutorialOpen = false;
@@ -578,7 +577,8 @@ class SkyfallGame extends FlameGame implements MovementSource {
       saved.currentArea = areaIndex;
       saved.skinIndex = skinIndex;
       await _saveProgress();
-      _showAreaStart();
+      // Both direct play and area/skin selection introduce each new run.
+      _openTutorial(_showAreaStart);
     } catch (_) {
       ui.overlay.value = loadErrorOverlay(
         () => _prepareSelection(areaIndex, skinIndex),
@@ -595,22 +595,9 @@ class SkyfallGame extends FlameGame implements MovementSource {
       onStart: () {
         _engage();
         _hideOverlay();
-        void begin() {
-          current.begin();
-          if (current.areaIndex < kAreas.length - 1) {
-            library.loadArea(current.areaIndex + 1).catchError((_) {});
-          }
-        }
-
-        if (_tutorialShown) {
-          begin();
-        } else {
-          // The tutorial opens the first gameplay; the run starts after it closes.
-          _tutorialShown = true;
-          _openTutorial(() {
-            _hideOverlay();
-            begin();
-          });
+        current.begin();
+        if (current.areaIndex < kAreas.length - 1) {
+          library.loadArea(current.areaIndex + 1).catchError((_) {});
         }
       },
     );
