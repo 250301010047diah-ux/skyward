@@ -1,4 +1,4 @@
-// Skyfall Bowguard — Flutter + Flame port of the web game in "game js".
+// Skyward Magic Arrow, built with Flutter and Flame.
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

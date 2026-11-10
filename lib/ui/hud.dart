@@ -1,4 +1,4 @@
-// Port of the HUD and touch controls from game js/game/ui.js + styles.css.
+// HUD and touch controls.
 import 'dart:math';
 
 import 'package:flutter/material.dart';

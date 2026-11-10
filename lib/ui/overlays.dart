@@ -1,4 +1,4 @@
-// Port of the overlay cards in game js/game/ui.js (start, selection, upgrade,
+// Overlay cards (start, selection, upgrade,
 // relic, game over, victory, loading and load error), styled from styles.css.
 import 'dart:math';
 import 'dart:ui' as ui;
@@ -333,7 +333,9 @@ Widget startOverlay({
 Widget areaSelectOverlay({
   required AssetLibrary library,
   required int selected,
+  required int unlockedArea,
   required void Function(int index) onPick,
+  required VoidCallback onBack,
 }) => LayoutBuilder(
   builder: (context, constraints) {
     final cq = Cq.of(constraints);
@@ -341,7 +343,7 @@ Widget areaSelectOverlay({
       wide: true,
       card: _Panel(
         title: 'PILIH AREA',
-        text: 'Semua tiga puluh arena dapat langsung dimainkan.',
+        text: 'Selesaikan area untuk membuka area berikutnya.',
         cq: cq,
         children: [
           _Grid(
@@ -349,20 +351,32 @@ Widget areaSelectOverlay({
             gap: cq.cw(8, 2, 12),
             children: [
               for (var index = 0; index < kAreas.length; index++)
-                _SelectButton(
-                  selected: index == selected,
-                  onPressed: () => onPick(index),
-                  cq: cq,
-                  leading: _AreaThumb(
-                    library: library,
-                    index: index,
-                    width: cq.cw(64, 17, 84),
+                Opacity(
+                  opacity: index <= unlockedArea ? 1 : 0.45,
+                  child: _SelectButton(
+                    selected: index == selected,
+                    onPressed: () {
+                      if (index <= unlockedArea) onPick(index);
+                    },
+                    cq: cq,
+                    leading: _AreaThumb(
+                      library: library,
+                      index: index,
+                      width: cq.cw(64, 17, 84),
+                    ),
+                    title:
+                        '${index <= unlockedArea ? '' : '🔒 '}${(index + 1).toString().padLeft(2, '0')} · ${kAreas[index].name}',
+                    subtitle: index <= unlockedArea
+                        ? kAreas[index].subtitle
+                        : 'TERKUNCI',
                   ),
-                  title:
-                      '${(index + 1).toString().padLeft(2, '0')} · ${kAreas[index].name}',
-                  subtitle: kAreas[index].subtitle,
                 ),
             ],
+          ),
+          _PanelButton(
+            label: 'KEMBALI KE MENU',
+            onPressed: onBack,
+            primary: false,
           ),
         ],
       ),
@@ -405,6 +419,9 @@ class _AreaThumb extends StatelessWidget {
 Widget skinSelectOverlay({
   required AssetLibrary library,
   required int selected,
+  required String Function() gold,
+  required bool Function(int index) owns,
+  required bool Function(int index) onBuy,
   required void Function(int index) onPick,
   required VoidCallback onBack,
 }) => LayoutBuilder(
@@ -413,6 +430,9 @@ Widget skinSelectOverlay({
     card: _SkinSelect(
       library: library,
       initial: selected,
+      gold: gold,
+      owns: owns,
+      onBuy: onBuy,
       cq: Cq.of(constraints),
       onPick: onPick,
       onBack: onBack,
@@ -428,8 +448,14 @@ class _SkinSelect extends StatefulWidget {
     required this.cq,
     required this.onPick,
     required this.onBack,
+    required this.gold,
+    required this.owns,
+    required this.onBuy,
   });
 
+  final String Function() gold;
+  final bool Function(int index) owns;
+  final bool Function(int index) onBuy;
   final AssetLibrary library;
   final int initial;
   final Cq cq;
@@ -448,9 +474,12 @@ class _SkinSelectState extends State<_SkinSelect> {
     final cq = widget.cq;
     final library = widget.library;
     final skin = kSkins[_selected];
+    final owns = widget.owns;
+    final owned = owns(_selected);
+    final price = skinPrice(_selected);
     return _Panel(
       title: 'PILIH SKY ELF',
-      text: 'Ketuk skin untuk melihatnya, lalu tekan PILIH.',
+      text: 'Emas: ${widget.gold()} · Skin terkunci dibeli pakai emas.',
       cq: cq,
       children: [
         // Large preview of the highlighted skin.
@@ -513,16 +542,30 @@ class _SkinSelectState extends State<_SkinSelect> {
                   size: cq.cw(38, 9, 48),
                 ),
                 title:
-                    '${(position + 1).toString().padLeft(2, '0')} · ${kSelectableSkins[position].name}',
-                subtitle: kSelectableSkins[position].skill1,
+                    '${owns(kSelectableSkins[position].index) ? '' : '🔒 '}${(position + 1).toString().padLeft(2, '0')} · ${kSelectableSkins[position].name}',
+                subtitle: owns(kSelectableSkins[position].index)
+                    ? kSelectableSkins[position].skill1
+                    : 'Harga ${skinPrice(kSelectableSkins[position].index)} emas',
                 extra:
                     'Power ×${kSelectableSkins[position].power.toStringAsFixed(2)}',
               ),
           ],
         ),
         _PanelButton(
-          label: 'PILIH ${skin.name.toUpperCase()}',
-          onPressed: () => widget.onPick(_selected),
+          label: owned
+              ? 'PILIH ${skin.name.toUpperCase()}'
+              : 'BELI $price EMAS',
+          onPressed: () {
+            if (owned) {
+              widget.onPick(_selected);
+            } else if (widget.onBuy(_selected)) {
+              setState(() {});
+            } else {
+              ScaffoldMessenger.maybeOf(context)?.showSnackBar(
+                const SnackBar(content: Text('Emas tidak cukup')),
+              );
+            }
+          },
         ),
         _PanelButton(
           label: 'KEMBALI KE AREA',
@@ -960,7 +1003,12 @@ class MainMenu extends StatelessWidget {
     required this.onTutorial,
     required this.onVolume,
     required this.onReset,
+    this.cheatActive = false,
+    this.onCheat,
   });
+
+  final bool cheatActive;
+  final VoidCallback? onCheat;
 
   final ui.Image? background;
   final String progress;
@@ -1008,7 +1056,7 @@ class MainMenu extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Text(
-                        'SKYFALL',
+                        'SKYWARD',
                         textAlign: TextAlign.center,
                         style: display(
                           size: cq.cmin(12, 11, 48),
@@ -1017,7 +1065,7 @@ class MainMenu extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'BOWGUARD',
+                        'MAGIC ARROW',
                         textAlign: TextAlign.center,
                         style: display(
                           size: cq.cmin(5, 4.4, 20),
@@ -1059,6 +1107,13 @@ class MainMenu extends StatelessWidget {
                       ),
                       _MenuButton(label: 'TUTORIAL', onPressed: onTutorial),
                       _MenuButton(label: volumeLabel, onPressed: onVolume),
+                      if (onCheat != null)
+                        _MenuButton(
+                          label: cheatActive
+                              ? 'EMAS 999++ AKTIF'
+                              : 'EMAS 999++ & BUKA SEMUA',
+                          onPressed: onCheat!,
+                        ),
                       _MenuButton(
                         label: 'RESET PROGRES',
                         onPressed: onReset,

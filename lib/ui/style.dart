@@ -1,4 +1,4 @@
-// Colours, fonts and sizing helpers taken from game js/styles.css.
+// Colours, fonts and sizing helpers.
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

@@ -1,4 +1,4 @@
-// Port of game js/game/game.js (flow, save, input) on top of a Flame game.
+// Game flow, save data and input on top of Flame.
 import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
@@ -32,11 +32,14 @@ class SaveData {
     required this.relics,
     required this.bestScore,
     this.volume = 1,
-  });
+    this.gold = 0,
+    List<int>? ownedSkins,
+    this.infiniteGold = false,
+  }) : ownedSkins = ownedSkins ?? [0];
 
   factory SaveData.defaults() => SaveData(
     currentArea: 0,
-    unlockedArea: 29,
+    unlockedArea: 0,
     skinIndex: 0,
     relics: [],
     bestScore: 0,
@@ -46,12 +49,28 @@ class SaveData {
     if (value == null) return SaveData.defaults();
     num numberOr0(Object? raw) => raw is num && raw.isFinite ? raw : 0;
     final rawVolume = value['volume'];
+    final unlocked = numberOr0(value['unlockedArea']).clamp(0, 29).toInt();
+    final owned = value['ownedSkins'] is List
+        ? [
+            for (final e in value['ownedSkins'] as List)
+              if (e is int) e,
+          ]
+        : <int>[0];
+    if (!owned.contains(0)) owned.add(0);
+    final infinite = value['infiniteGold'] == true;
+    final rawSkin = selectableSkinIndex(
+      numberOr0(value['skinIndex']).clamp(0, 19).toInt(),
+    );
     return SaveData(
-      currentArea: numberOr0(value['currentArea']).clamp(0, 29).toInt(),
-      unlockedArea: 29,
-      skinIndex: selectableSkinIndex(
-        numberOr0(value['skinIndex']).clamp(0, 19).toInt(),
+      gold: numberOr0(value['gold']).clamp(0, 999999999).toInt(),
+      ownedSkins: owned,
+      infiniteGold: infinite,
+      currentArea: min(
+        numberOr0(value['currentArea']).clamp(0, 29).toInt(),
+        unlocked,
       ),
+      unlockedArea: unlocked,
+      skinIndex: infinite || owned.contains(rawSkin) ? rawSkin : 0,
       relics: value['relics'] is List
           ? [
               for (final entry in value['relics'] as List)
@@ -73,6 +92,12 @@ class SaveData {
   List<String> relics;
   double bestScore;
   double volume;
+  int gold;
+  List<int> ownedSkins;
+  bool infiniteGold;
+
+  bool ownsSkin(int index) => infiniteGold || ownedSkins.contains(index);
+  String get goldLabel => infiniteGold ? '999++' : '$gold';
 
   Map<String, dynamic> toJson() => {
     'version': _saveVersion,
@@ -82,6 +107,9 @@ class SaveData {
     'relics': relics,
     'bestScore': bestScore,
     'volume': volume,
+    'gold': gold,
+    'ownedSkins': ownedSkins,
+    'infiniteGold': infiniteGold,
   };
 }
 
@@ -269,6 +297,9 @@ class SkyfallGame extends FlameGame implements MovementSource {
       relics: current.relics.toList(),
       bestScore: max(saved.bestScore, max(current.bestScore, current.score)),
       volume: saved.volume,
+      gold: saved.gold,
+      ownedSkins: saved.ownedSkins,
+      infiniteGold: saved.infiniteGold,
     );
     try {
       _prefs ??= await SharedPreferences.getInstance();
@@ -278,7 +309,7 @@ class SkyfallGame extends FlameGame implements MovementSource {
     }
   }
 
-  // ---- Flow (web game.js) ----
+  // ---- Game flow ----
 
   Future<void> _boot() async {
     // Wait until the first frame is built; overlays cannot change during build.
@@ -328,6 +359,7 @@ class SkyfallGame extends FlameGame implements MovementSource {
             min(29, state.areaIndex + 1),
           );
           saved.relics = arena!.relics.toList();
+          saved.gold += state.coins;
           saved.bestScore = max(saved.bestScore, state.score);
           _saveProgress();
           audio.play('area_clear');
@@ -447,7 +479,7 @@ class SkyfallGame extends FlameGame implements MovementSource {
     ui.overlay.value = MainMenu(
       background: library.get(area.bgKey)?.image,
       progress:
-          'Area ${saved.currentArea + 1} · ${area.name} · ${kSkins[saved.skinIndex].name}',
+          'Area ${saved.currentArea + 1} · ${area.name} · ${kSkins[saved.skinIndex].name} · Emas ${saved.goldLabel}',
       volumeLabel: volumeLabel,
       resumable: _menuResumable,
       onPlay: () {
@@ -465,7 +497,22 @@ class SkyfallGame extends FlameGame implements MovementSource {
         _showMenu();
       },
       onReset: _confirmReset,
+      cheatActive: saved.infiniteGold,
+      onCheat: () {
+        saved.infiniteGold = true;
+        saved.gold = 999999;
+        saved.unlockedArea = 29;
+        _persist();
+        _showMenu();
+      },
     );
+  }
+
+  Future<void> _persist() async {
+    try {
+      _prefs ??= await SharedPreferences.getInstance();
+      await _prefs!.setString(_saveKey, jsonEncode(saved.toJson()));
+    } catch (_) {}
   }
 
   void _confirmReset() {
@@ -500,6 +547,8 @@ class SkyfallGame extends FlameGame implements MovementSource {
     ui.overlay.value = areaSelectOverlay(
       library: library,
       selected: saved.currentArea,
+      unlockedArea: saved.unlockedArea,
+      onBack: () => _showMenu(),
       onPick: _showSkinSelect,
     );
   }
@@ -510,6 +559,17 @@ class SkyfallGame extends FlameGame implements MovementSource {
     ui.overlay.value = skinSelectOverlay(
       library: library,
       selected: saved.skinIndex,
+      gold: () => saved.goldLabel,
+      owns: saved.ownsSkin,
+      onBuy: (skinIndex) {
+        if (saved.ownsSkin(skinIndex)) return true;
+        final price = skinPrice(skinIndex);
+        if (saved.gold < price) return false;
+        saved.gold -= price;
+        saved.ownedSkins.add(skinIndex);
+        _persist();
+        return true;
+      },
       onPick: (skinIndex) {
         _engage();
         _prepareSelection(areaIndex, skinIndex);

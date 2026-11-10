@@ -1,5 +1,4 @@
-// Port of game js/game/assets.js — loads sprite sheets and their frame data.
-import 'dart:convert';
+// Loads sprite sheets and their frame data from Dart metadata.
 import 'dart:async';
 import 'dart:ui' as ui;
 
@@ -8,6 +7,7 @@ import 'package:flutter/services.dart';
 
 import 'asset_manifest.dart';
 import 'data.dart';
+import 'sprite_frames.dart';
 import 'sprite_crop.dart';
 
 class FrameInfo {
@@ -79,15 +79,6 @@ class AssetLibrary extends ChangeNotifier {
     return 'assets/images/$file';
   }
 
-  /// Web `framesUrlFor`: backgrounds have no frame data.
-  String? framesPath(String key) {
-    if (key.startsWith('BG_AREA_')) return null;
-    final file = kAssetFiles[key];
-    if (file == null) return null;
-    final base = file.replaceFirst(RegExp(r'\.[^.]+$'), '');
-    return 'assets/json/$base.frames.json';
-  }
-
   Future<LoadedSheet> load(String key) {
     final existing = _items[key];
     if (existing != null) return Future.value(existing);
@@ -99,11 +90,7 @@ class AssetLibrary extends ChangeNotifier {
         imageData.buffer.asUint8List(),
       );
       final image = (await codec.getNextFrame()).image;
-      final framesFile = framesPath(key);
-      final frameData = framesFile == null
-          ? null
-          : jsonDecode(await rootBundle.loadString(framesFile))
-                as Map<String, dynamic>;
+      final frameData = kSpriteFrames[key];
       final frames = <String, FrameInfo>{};
       final animations = <String, List<FrameInfo>>{};
       if (frameData != null) {

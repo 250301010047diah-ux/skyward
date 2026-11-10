@@ -84,10 +84,11 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # Sprite sheets (assets/images) and frame metadata (assets/json), copied from the web game.
+  # Sprite sheets; frame metadata lives in lib/game/sprite_frames.dart.
   assets:
     - assets/images/
-    - assets/json/
+    - assets/audio/bgm/
+    - assets/audio/sfx/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

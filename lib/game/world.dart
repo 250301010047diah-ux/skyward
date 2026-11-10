@@ -1,4 +1,4 @@
-// Port of game js/game/world.js — gameplay logic, no rendering.
+// Gameplay logic, without rendering.
 import 'dart:math';
 
 import 'data.dart';
@@ -62,7 +62,7 @@ class Tuning {
     this.effectIntensity = 1,
   });
 
-  // Defaults from game js/tweaks.json.
+  // Default gameplay values.
   final double playerSpeed;
   final double jumpForce;
   final double gravity;
@@ -350,7 +350,7 @@ class WorldCallbacks {
   final void Function(HudState state)? onGameOver;
 }
 
-/// Sound effects are addressed by name, as in web/audio.js.
+/// Sound effects are addressed by name.
 abstract class SoundSink {
   void play(String name);
 }

@@ -1,4 +1,4 @@
-// Loads every area and skin the same way game.js does, to catch missing or broken assets.
+// Loads every area and skin to catch missing or broken assets.
 
 import 'package:flutter_test/flutter_test.dart';
 
@@ -29,8 +29,7 @@ void main() {
           failures.add('skin ${skin + 1}: $error');
         }
       }
-      // These keys are referenced by game js/game/data.js but are missing from
-      // game js/assets.json, so the web build cannot load them either.
+      // These keys are referenced by the game data but have no image assets.
       const knownGaps = [
         'ENEMIES_AREA_19_COMMON',
         'ENEMIES_AREA_21_COMMON',

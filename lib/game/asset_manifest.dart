@@ -1,4 +1,4 @@
-// GENERATED from game js/assets.json — maps asset key to file name in assets/images.
+// Maps asset keys to image file names in assets/images.
 const kAssetFiles = <String, String>{
   'BG_AREA_2': 'bg_area_2.webp',
   'BG_AREA_8': 'bg_area_8.webp',

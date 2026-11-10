@@ -1,4 +1,4 @@
-// Port of game js/game/renderer.js — draws the arena on a Flame canvas.
+// Draws the arena on a Flame canvas.
 import 'dart:math';
 import 'dart:ui' as ui;
 

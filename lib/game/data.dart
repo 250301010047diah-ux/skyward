@@ -1,4 +1,4 @@
-// GENERATED from game js/game/data.js — keep in sync with the web source.
+// Game configuration in Dart.
 // ignore_for_file: prefer_single_quotes, lines_longer_than_80_chars
 
 class AreaData {
@@ -957,6 +957,12 @@ final List<SkinData> kSelectableSkins = [
   for (final skin in kSkins)
     if (skin.index != kHiddenSkin) skin,
 ];
+
+/// Gold price of a skin; the first skin is free.
+int skinPrice(int index) {
+  final position = kSelectableSkins.indexWhere((s) => s.index == index);
+  return position <= 0 ? 0 : position * 250;
+}
 
 /// Maps a saved skin index to one that can be played.
 int selectableSkinIndex(int index) => index == kHiddenSkin ? 0 : index;
